@@ -1,0 +1,154 @@
+html{
+    font-size: 1.1rem;
+}
+
+#root{
+    max-width:700px;
+    margin:0 auto;
+}
+
+.error{
+    margin: 0;
+    color:red;
+}
+
+h1{
+    color: lightpink;
+    text-align: center;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    padding-left: 0;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border:none;
+    border-bottom: 1px solid lightpink;
+    outline: none;
+    font-size: 1.2rem;
+}
+
+.submit-button{
+    width:20%;
+    margin: 5px auto;
+    padding: 0.5rem 0.2rem;
+    font-size: 1rem;
+    color: white;
+    border:1px solid transparent;
+    background-color: lightpink;
+    border-radius: 5px;
+}
+
+.submit-button:hover{
+    border:1px solid lightpink;
+    background-color: white;
+    color: lightpink;
+    cursor: pointer;
+}
+
+.form-input{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.todo-item{
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border: 1px solid lightpink;
+    padding: 0.5rem;
+}
+
+.item-content{
+    margin: 5px;
+    font-size: 2rem;
+}
+
+.delete-button{
+    padding: 0.5rem 0.3rem;
+    font-size: 0.9rem;
+    color: white;
+    border:1px solid transparent;
+    background-color: lightpink;
+    border-radius: 5px;
+}
+
+.delete-button:hover{
+    color: red;
+    border:1px solid red;
+    background-color: white;
+    cursor: pointer;
+}
+
+.actions{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.completed{
+    text-decoration: line-through;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: lightpink;
+    opacity: 1; /* Firefox */
+}
+
+.filter{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.filter form{
+    margin: 5px;
+}
+
+.filter form input{
+    padding: 10px;
+    border: 1px solid lightpink;
+    background-color: transparent;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+.filter form input:hover {
+    cursor: pointer;
+}
+
+.clear-list-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clear-list{
+    padding: 0.6rem 0.4rem;
+    font-size: 1rem;
+    color: white;
+    border:1px solid transparent;
+    background-color: lightpink;
+    border-radius: 5px;
+}
+
+.clear-list:hover{
+    color: red;
+    background-color: #FFF;
+    border: 1px solid red;
+    cursor: pointer;
+}
+
+.filter form input.active {
+    background-color: lightpink;
+    color: white;
+    border: transparent;
+}
