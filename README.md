@@ -1,1 +1,5 @@
-simple todo applicaton using laravel
+# Laravel Todo
+
+Todo application written in Laravel
+
+Status: IN PROGRESS
